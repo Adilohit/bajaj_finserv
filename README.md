@@ -5,7 +5,7 @@ This is a Spring Boot application that automatically interacts with a webhook en
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Spring-boot-webhook-auto-submitter/
@@ -28,7 +28,7 @@ Spring-boot-webhook-auto-submitter/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Update the following values in `src/main/resources/application.yml`:
 
@@ -42,7 +42,7 @@ app:
 
 ---
 
-## 🚀 Build and Run
+##  Build and Run
 
 ### 1. Build the project
 ```bash
@@ -56,7 +56,7 @@ java -jar target/spring-boot-webhook-auto-submitter-0.0.1-SNAPSHOT.jar
 
 ---
 
-## 📖 How it Works
+##  How it Works
 
 1. On startup, the app sends a POST request to `generateWebhook/JAVA` with your name, regNo, and email.
 2. It receives a response containing:
@@ -67,7 +67,7 @@ java -jar target/spring-boot-webhook-auto-submitter-0.0.1-SNAPSHOT.jar
 
 ---
 
-## 📌 Files to Check
+##  Files to Check
 
 - `pom.xml` → Maven dependencies and build config.
 - `application.yml` → Your details (update before running).
@@ -78,7 +78,7 @@ java -jar target/spring-boot-webhook-auto-submitter-0.0.1-SNAPSHOT.jar
 
 ---
 
-## ✅ Example Output
+##  Example Output
 
 When the app runs successfully, you should see logs like:
 
